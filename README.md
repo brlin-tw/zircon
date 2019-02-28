@@ -1,14 +1,14 @@
 # Zircon
 
-Zircon is the core platform that powers the Fuchsia OS.  Zircon is
+Zircon is the core platform that powers the Fuchsia OS And DahliaOS.  Zircon is
 composed of a microkernel (source in kernel/...) as well as a small
 set of userspace services, drivers, and libraries (source in system/...)
 necessary for the system to boot, talk to hardware, load userspace
-processes and run them, etc.  Fuchsia builds a much larger OS on top
+processes and run them, etc.  Fuchsia And Dahlia builds a much larger OS on top
 of this foundation.
 
-The canonical Zircon Git repository is located
-at: https://fuchsia.googlesource.com/zircon
+The Dahlia Zircon Git repository is located
+at: https://github.com/dahlia-os/zircon/
 
 The Zircon Kernel provides syscalls to manage processes, threads,
 virtual memory, inter-process communication, waiting on object state
