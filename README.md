@@ -1,6 +1,6 @@
 # Zircon
 
-Zircon is the core platform that powers the Fuchsia OS And DahliaOS.  Zircon is
+Zircon is the core platform that powers the Fuchsia OS And Dahlia OS.  Zircon is
 composed of a microkernel (source in kernel/...) as well as a small
 set of userspace services, drivers, and libraries (source in system/...)
 necessary for the system to boot, talk to hardware, load userspace
