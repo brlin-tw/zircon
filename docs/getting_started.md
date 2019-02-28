@@ -3,18 +3,18 @@
 ## Checking out the Zircon source code
 
 *** note
-NOTE: The Fuchsia source includes Zircon. See Fuchsia's
+NOTE: The Dahlias source includes Zircon. See Fuchsia's
 [Getting Started](https://fuchsia.googlesource.com/docs/+/master/getting_started.md)
 doc. Follow this doc to work on only Zircon.
 ***
 
-The Zircon Git repository is located
-at: https://fuchsia.googlesource.com/zircon
+The Dahlia Zircon Git repository is located
+at: https://github.com/dahlia-os/zircon
 
 To clone the repository, assuming you setup the $SRC variable
 in your environment:
 ```shell
-git clone https://fuchsia.googlesource.com/zircon $SRC/zircon
+git clone https://github.com/dahlia-os/zircon.git $SRC/zircon
 ```
 
 For the purpose of this document, we will assume that Zircon is checked
@@ -165,7 +165,7 @@ We use a trunk snapshot of Clang and update to new snapshots frequently.  Any
 build of recent-enough Clang with support for `x86_64` and `aarch64` compiled
 in should work.  You'll need a toolchain that also includes the runtime
 libraries.  We normally also use the same build of Clang for the host as well
-as for the `*-fuchsia` targets.  See
+as for the `*-dahlia` targets.  See
 [here](https://fuchsia.googlesource.com/docs/+/master/development/build/toolchain.md)
 for details on how we build Clang.
 
