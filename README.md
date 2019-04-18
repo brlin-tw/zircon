@@ -8,7 +8,7 @@ processes and run them, etc.  Fuchsia And Dahlia builds a much larger OS on top
 of this foundation.
 
 The Dahlia Zircon Git repository is located
-at: https://github.com/dahlia-os/zircon/
+at: https://github.com/dahlia-os/zircon
 
 The Zircon Kernel provides syscalls to manage processes, threads,
 virtual memory, inter-process communication, waiting on object state
